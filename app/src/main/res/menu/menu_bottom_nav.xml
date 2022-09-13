@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Coffee"
+        android:id="@+id/menuCoffee"
+        android:icon="@drawable/donut"
+    />
+    <item
+        android:title="Muffin"
+        android:id="@+id/menuMuffin"
+        android:icon="@drawable/muffin"
+        />
+    <item
+        android:title="Tea"
+        android:id="@+id/menuTea"
+        android:icon="@drawable/tea"
+        />
+    <item
+        android:title="Donuts"
+        android:id="@+id/menuDonuts"
+        android:icon="@drawable/donut"
+        />
+</menu>
