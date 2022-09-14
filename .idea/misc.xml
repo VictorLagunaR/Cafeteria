@@ -3,11 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/cafeteria/app/src/main/res/drawable/ic_baseline_favorite.xml" value="0.306" />
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/cafeteria/app/src/main/res/drawable/ic_baseline_share.xml" value="0.306" />
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/cafeteria/app/src/main/res/drawable/ic_launcher_background.xml" value="0.306" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/cafeteria/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/cafeteria/app/src/main/res/layout/fragment_coffee.xml" value="0.18" />
-        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/cafeteria/app/src/main/res/layout/fragment_donuts.xml" value="0.1" />
-        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/cafeteria/app/src/main/res/layout/fragment_muffin.xml" value="0.1" />
-        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/cafeteria/app/src/main/res/layout/fragment_tea.xml" value="0.1" />
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/cafeteria/app/src/main/res/layout/fragment_coffee.xml" value="0.33" />
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/cafeteria/app/src/main/res/layout/fragment_donuts.xml" value="0.5" />
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/cafeteria/app/src/main/res/layout/fragment_muffin.xml" value="0.33" />
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/cafeteria/app/src/main/res/layout/fragment_tea.xml" value="0.5" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/cafeteria/app/src/main/res/menu/menu_bottom_view.xml" value="0.33" />
       </map>
     </option>
