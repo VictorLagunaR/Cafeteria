@@ -12,7 +12,7 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="350dp"
         android:layout_height="500dp"
-        android:backgroundTint="#CD7315"
+        android:backgroundTint="#DDA469"
         app:cardCornerRadius="20dp">
 
         <LinearLayout
@@ -60,11 +60,13 @@
 
                 <RatingBar
                     style="@style/Widget.AppCompat.RatingBar.Indicator"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:numStars="1"
-                    android:rating="1" />
+                    android:rating="1"
+                    />
 
                 <TextView
                     android:layout_width="wrap_content"

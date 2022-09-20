@@ -17,21 +17,16 @@ public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     List<Doces> doces = new ArrayList<>();
 
-//    HomeFragment homeFragment = new HomeFragment();
-//    NotificationsFragment notificationsFragment = new NotificationsFragment();
-//    SettingsFragment settingsFragment = new SettingsFragment();
+    CoffeeFragment coffeeFragment = new CoffeeFragment();
+    MuffinFragment muffinFragment = new MuffinFragment();
+    TeaFragment teaFragment = new TeaFragment();
+    DonutsFragment donutsFragment = new DonutsFragment();
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        CoffeeFragment coffeeFragment = new CoffeeFragment();
-        MuffinFragment muffinFragment = new MuffinFragment();
-        TeaFragment teaFragment = new TeaFragment();
-        DonutsFragment donutsFragment = new DonutsFragment();
-
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
         getSupportFragmentManager().
@@ -71,11 +66,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        public void criarFilmes() {
+        public void criarItens() {
             //Criando a instância do objeto Filmes
-            Filmes filmes = new Filmes("A bela e a fera", "Aventura", "1990");
+            Doces doce = new Doces("A bela e a fera", "Aventura", "1990");
             //Adicionando os valores no Array de Filmes
-            this.listarFilmes.add(filmes);
+            this.doces.add(doce);
             filmes = new Filmes("Feitiço do Tempo", "Comédia", "1993");
             this.listarFilmes.add(filmes);
             filmes = new Filmes("Jogo da Imitação", "Suspense", "2014");
