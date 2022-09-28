@@ -13,19 +13,19 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class CoffeAdapter extends RecyclerView.Adapter<CoffeAdapter.ViewHolder>{
+public class CoffeeAdapter extends RecyclerView.Adapter<CoffeeAdapter.ViewHolder>{
 
-    private Context mContext; //É a classe onde estou
+    private Context Context; //É a classe onde estou
     private List<Coffee> mData; //O objeto que irá representar os dados
 
-    public CoffeAdapter(Context mContext, List<Coffee> mData) {
-        this.mContext = mContext;
+    public CoffeeAdapter(Context Context, List<Coffee> mData) {
+        this.Context = Context;
         this.mData = mData;
     }
 
     @NonNull
     @Override
-    public CoffeAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public CoffeeAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view;
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         view = inflater.inflate(R.layout.modelo, parent, false);
@@ -46,7 +46,7 @@ public class CoffeAdapter extends RecyclerView.Adapter<CoffeAdapter.ViewHolder>{
         return mData.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    public static class ViewHolder extends RecyclerView.ViewHolder {
         TextView nomeCard;
         ImageView imagemCard;
         TextView descCard;
@@ -57,7 +57,6 @@ public class CoffeAdapter extends RecyclerView.Adapter<CoffeAdapter.ViewHolder>{
             imagemCard.findViewById(R.id.cafeImg);
             descCard.findViewById(R.id.cafeDescricao);
             ratingCard.findViewById(R.id.cafeRating);
-
         }
     }
 }

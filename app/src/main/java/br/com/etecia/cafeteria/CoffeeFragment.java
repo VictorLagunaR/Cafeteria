@@ -30,14 +30,14 @@ public class CoffeeFragment extends Fragment {
 
         mData = new ArrayList<>();
 
-        mData.add(new Coffee("Café com leite", R.drawable.cafeleite, "Café com leite gostosinho", 5));
-        mData.add(new Coffee("Café com leite", R.drawable.cafeleite, "Café com leite gostosinho", 5));
-        mData.add(new Coffee("Café com leite", R.drawable.cafeleite, "Café com leite gostosinho", 5));
-        mData.add(new Coffee("Café com leite", R.drawable.cafeleite, "Café com leite gostosinho", 5));
-        mData.add(new Coffee("Café com leite", R.drawable.cafeleite, "Café com leite gostosinho", 5));
-        mData.add(new Coffee("Café com leite", R.drawable.cafeleite, "Café com leite gostosinho", 5));
+        mData.add(new Coffee("Café com leite",R.drawable.cafeleite, "Café com leite gostosinho",5));
+        mData.add(new Coffee("Cappuccino",R.drawable.cappuccino, "Cappuccino deliciosinho",5));
+        mData.add(new Coffee("Expresso",R.drawable.expresso, "Café expresso gostosinho",5));
+        mData.add(new Coffee("Café com leite",R.drawable.cafeleite, "Café com leite gostosinho",5));
+        mData.add(new Coffee("Cappuccino",R.drawable.cappuccino, "Cappuccino deliciosinho",5));
+        mData.add(new Coffee("Expresso",R.drawable.expresso, "Café expresso gostosinho",5));
 
-        CoffeAdapter cafeAdapter = new CoffeAdapter(getContext(),mData);
+        CoffeeAdapter cafeAdapter = new CoffeeAdapter(getContext(),mData);
         recyclerView.setAdapter(cafeAdapter);
 
         return v;
