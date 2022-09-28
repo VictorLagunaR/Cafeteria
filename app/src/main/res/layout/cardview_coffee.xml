@@ -7,12 +7,13 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".CoffeeFragment">
+    tools:context=".CoffeeFragment"
+    >
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="350dp"
         android:layout_height="500dp"
-        android:backgroundTint="#DDA469"
+        android:backgroundTint="#E6E6E5"
         app:cardCornerRadius="20dp">
 
         <LinearLayout
@@ -76,7 +77,8 @@
                     android:text="9.0"
                     android:textColor="#000"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:id="@+id/cafeRating"/>
 
                 <ImageView
                     android:layout_gravity="center"
